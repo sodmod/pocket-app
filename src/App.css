@@ -1,0 +1,105 @@
+.nav {
+  width: 100%;
+  background-color: green;
+  height: 20vh;
+}
+
+.box {
+  height: 40px;
+  width: 40px;
+}
+
+.box .group {
+  background-color: #0466c833;
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+}
+
+.box .image {
+  height: 30px;
+  width: 30px;
+}
+
+.frame {
+  border-radius: 10px;
+  /* height: 47px; */
+  width: 100%;
+  background-color: yellow;
+}
+
+.frame .overlap {
+  /* height: 50px; */
+  /* position: relative; */
+  width: 100%;
+}
+
+.frame .group {
+  /* height: 50px; */
+  width: 100%;
+  background-color: green;
+}
+
+.frame .overlap-group-wrapper {
+  height: 50px;
+  left: 0;
+  /* position: absolute; */
+  top: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3;
+}
+
+.frame .overlap-group {
+  background-color: aqua;
+  width: 100%;
+}
+
+.frame .ellipse {
+  background-color: #f4e9cd;
+  border-radius: 23px;
+  top: 2px;
+  width: 100%;
+}
+
+.frame .img {
+  left: 23px;
+
+  width: 10%;
+}
+
+.frame .vector {
+  /* height: 18px; */
+  left: 10px;
+  /* position: absolute; */
+  top: 16px;
+  /* width: 26px; */
+}
+
+.frame .div-wrapper {
+  width: 100%;
+}
+
+.frame .text-wrapper {
+  color: #001233;
+  font-family: var(--heading-2-font-family);
+  font-size: var(--heading-2-font-size);
+  font-style: var(--heading-2-font-style);
+  font-weight: var(--heading-2-font-weight);
+  left: 0;
+  letter-spacing: var(--heading-2-letter-spacing);
+  line-height: var(--heading-2-line-height);
+  /* position: absolute; */
+  top: 0;
+  white-space: nowrap;
+}
+
+.frame .div {
+  color: #6f747f;
+  font-family: var(--body-1-font-family);
+  font-size: var(--body-1-font-size);
+  font-style: var(--body-1-font-style);
+  font-weight: var(--body-1-font-weight);
+  letter-spacing: var(--body-1-letter-spacing);
+  line-height: var(--body-1-line-height);
+}
