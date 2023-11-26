@@ -1,6 +1,6 @@
 import "./App.css";
 import { Box } from "@chakra-ui/react";
-import Footer from "./components/Footer";
+import Footer from "./components/footer";
 import Nav from "./components/nav";
 import Body from "./components/body";
 
