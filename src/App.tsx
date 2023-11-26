@@ -89,8 +89,8 @@ function App() {
                 <Text
                   position="absolute"
                   top={{ base: "130px", md: "100px" }}
-                  left={{ base: "100px", md: "145px" }}
-                  fontSize={{ base: "30px", md: "100px" }}
+                  left={{ base: "80px", md: "145px" }}
+                  fontSize={{ base: "49px", md: "100px" }}
                   fontWeight="700"
                   fontStyle="none"
                   color="#0466C8"
@@ -125,7 +125,8 @@ function App() {
               </Box>
               <Text>Amount spent so far</Text>
               <Text color="#0466cb">
-                50,000<span style={{ color: "#67a2dc" }}>/120,000</span>
+                &#8358;50,000
+                <span style={{ color: "#67a2dc" }}>/&#8358;120,000</span>
               </Text>
             </Container>
           </Box>
