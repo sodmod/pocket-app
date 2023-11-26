@@ -205,7 +205,7 @@ function App() {
                     </svg>
                   </Icon>
                   <Box ml={{ sm: "30px" }}>
-                    <Text>Food and Drink</Text>
+                    <Text>Savings</Text>
                     <Text fontWeight="200">40%</Text>
                   </Box>
                 </Flex>
@@ -271,7 +271,7 @@ function App() {
                     </svg>
                   </Icon>
                   <Box ml={{ sm: "30px" }}>
-                    <Text>Food and Drink</Text>
+                    <Text>Savings</Text>
                     <Text fontWeight="200">40%</Text>
                   </Box>
                 </Flex>
